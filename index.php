@@ -1,6 +1,6 @@
 <html>
 <head>
- <p style="font-size:50px;" class="credit"> <a href="https://phpproject111.herokuapp.com/"><strong>Heruko Link</strong></a></p>
+ <p style="font-size:50px;" class="credit"> <a href=https://php-project102.herokuapp.com/"><strong>Heruko Link</strong></a></p>
 <style>
     
     button {
@@ -29,9 +29,9 @@ h2    {color: Powderblue;}
 </body>
   <center><form method="get" action="cv.html" > <button type="submit" class="button button" >Continue to CV </button>   </form></center>
              <br>
-         <center>    <form method="get" action="interests.html"> <button type="submit" class="button button" >Continue to Interests</button> </form></center>
+         <center>    <form method="get" action="Interests.html"> <button type="submit" class="button button" >Continue to Interests</button> </form></center>
             <br>
-         <center>   <form method="get" action="consultancy.html"> <button type="submit" class="button button" >Continue to Consulting Services</button> </form></center>
+         <center>   <form method="get" action="Consultancy.html"> <button type="submit" class="button button" >Continue to Consulting Services</button> </form></center>
              <br>
             <br>
             
