@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    
+  <h1>Rolexx Youth Consultancy</h1>
+  
+  <p>Providing exquisite financial advice for generations.</p>
+ 
+</div>
+
+<div class="topnav">
+  <a href="eBus1.php">Purchase Our Product</a>
+  <a href="Interests.html">Return to interests</a>
+  <a href="Services.html">View our Services</a>
+  <a href="Index.php">Return to Index</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2></h2>
+    
+    <p><img src="Rolexx.png" width="300" height="300" alt="" align="Left"></p>
+     
+  </div>
+  
+  <div class="column middle">
+      <h2 style="font-size:30px;">About Us</h2>
+      Rolexx Youth is one of the world's leading management consulting firms. We work with our customers to help them make better decisions, convert those decisions to actions and deliver the sustainable success they desire. We advise our customers on their most critical issues and opportunities: strategy, marketing, organization, operations, information technology, digital transformation and strategy, advanced analytics, transformations, sustainability, corporate finance and mergers and acquisitions, across all industries and geographies. Our unique approach to traditional change management, helps clients measure and manage risk and overcome the odds to realize results. We've worked with thousands of regional and local organizations, hundreds of nonprofits, This enables us too be the best we can be for your benefit and we are We are proud of our clients' track record,
+
+      
+  </div>
+    
+  <div class="column side">
+    <h2></h2>
+    <p> <img src="Rolexx.png" width="300" height="300" alt="" align="Left"></p>
+  </div>
+</div>
+
+
+  
+</body>
+</html>

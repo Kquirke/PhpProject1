@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    
+  <h1>Rolexx Youth Consultancy</h1>
+  
+  <p>Providing exquisite financial advice for generations.</p>
+ 
+</div>
+
+<div class="topnav">
+    <a href="eBus1.php">Purchase Our Products</a>
+  <a href="Interests.html">Return to Interests</a>
+  <a href="Consultancy.html">Return to About Us</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2></h2>
+    
+    <p><img src="Rolexx.png" width="300" height="300" alt="" align="Left"></p>
+     
+  </div>
+  
+  <div class="column middle">
+      <h2 style="font-size:30px;">What we offer<br></br>1.Block Chain</h2>
+      <p> Our blockchain development services span the delivery of secure decentralized solutions for various domains, and integration of blockchain-based modules into existing software to ensure data integrity and compliance, and reduce fraud.
+          Read more about Blockchain here at <a href="https://blockgeeks.com/guides/what-is-blockchain-technology"><strong>Blockchain Explained</strong></a></p>
+      <h2 style="font-size:30px;"> 2.Automation</h2>
+    <p>As experts in Robotic Process Automation (RPA),We at Rolexx Youth understand that Autonomous things, such as robots, drones and autonomous vehicles, go beyond the automation provided by rigid programming models and exploit AI to deliver advanced behaviours that interact more naturally with their surroundings and with people, giving you the best Advice available. Learn more about automation here <a href=https://www.thehindubusinessline.com/info-tech/autonomous-things-blockchain-among-top-10-tech-trends-for-2019/article25247367.ece><strong>Automation Explained</strong></a></p>
+</p>
+        <h2 style="font-size:30px;"> 3.Immersive Technology</h2>
+        <p> Immersive Technology such as virtual reality is a powerful medium that allows brands to engage with audiences like never before. Our Immersive technology/VR consultancy services can guide you through the complexities of that medium and help your brand to strategically leverage Virtual, Augmented and Mixed Reality to gain a competitive edge. Learn more here  <a href="https://whatis.techtarget.com/definition/immersive-technology"><strong>Immersive Technology Explained</strong></a></p> 
+
+  </div>
+    
+  <div class="column side">
+    <h2></h2>
+    <p> <img src="Rolexx.png" width="300" height="300" alt="" align="Left"></p>
+  </div>
+</div>
+
+
+    <footer> </footer>
+</body>
+</html>
