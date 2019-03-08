@@ -29,7 +29,7 @@ $_SESSION['txtnum']= $Email;
 </style>
 <body>
     <div class ="form">
-        <form name ="Details" method ="post" action= "eBUS3.php">
+        <form name ="Details" method ="post" action= "eBus3.php">
             <center>
                 <table cellspacing ="10">
                     <tr>
