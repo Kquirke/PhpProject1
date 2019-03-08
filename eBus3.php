@@ -28,6 +28,6 @@
  echo "<br></br>";
  echo "The total value is : ".$totalValue2."";
  ?>
-        <br></br> <form method="get" action="Index.php" > <button type="submit" class="button button" >Return to Index</button>   </form>
+        <br></br> <form method="get" action="index.php" > <button type="submit" class="button button" >Return to Index</button>   </form>
     </body>
 </html>
