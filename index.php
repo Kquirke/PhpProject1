@@ -1,6 +1,6 @@
 <html>
 <head>
- <p style="font-size:50px;" class="credit"> <a href="https://php-project102.herokuapp.com/"><strong>Heruko Link</strong></a></p>
+ <p style="font-size:50px;" class="credit"> <a href="https://php-project102.herokuapp.com/"><strong>Heroku Link</strong></a></p>
 <style>
     
     button {
